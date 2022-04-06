@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.samokat.CourierDeletingTest" time="1.143" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3/target/test-classes:/Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3/target/classes:/Users/dariakuznetsova/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/dariakuznetsova/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dariakuznetsova/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/dariakuznetsova/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/Users/dariakuznetsova/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/dariakuznetsova/.m2/repository/net/bytebuddy/byte-buddy/1.11.16/byte-buddy-1.11.16.jar:/Users/dariakuznetsova/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/dariakuznetsova/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/dariakuznetsova/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/dariakuznetsova/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dariakuznetsova/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dariakuznetsova/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dariakuznetsova/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dariakuznetsova/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dariakuznetsova/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/dariakuznetsova/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dariakuznetsova/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/dariakuznetsova/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/dariakuznetsova/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/dariakuznetsova/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/dariakuznetsova/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/dariakuznetsova/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/dariakuznetsova/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/dariakuznetsova/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-junit4/2.17.3/allure-junit4-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-java-commons/2.17.3/allure-java-commons-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-model/2.17.3/allure-model-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-rest-assured/2.17.3/allure-rest-assured-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-attachments/2.17.3/allure-attachments-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/dariakuznetsova/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3/target/surefire/surefirebooter7943885742686558681.jar /Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3/target/surefire 2022-04-07T00-36-18_788-jvmRun1 surefire2934691667563558745tmp surefire_05078756641180116343tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3/target/test-classes:/Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3/target/classes:/Users/dariakuznetsova/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/dariakuznetsova/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dariakuznetsova/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/dariakuznetsova/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/Users/dariakuznetsova/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/dariakuznetsova/.m2/repository/net/bytebuddy/byte-buddy/1.11.16/byte-buddy-1.11.16.jar:/Users/dariakuznetsova/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/dariakuznetsova/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/dariakuznetsova/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/dariakuznetsova/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dariakuznetsova/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dariakuznetsova/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dariakuznetsova/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dariakuznetsova/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dariakuznetsova/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/dariakuznetsova/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dariakuznetsova/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/dariakuznetsova/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/dariakuznetsova/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/dariakuznetsova/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/dariakuznetsova/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/dariakuznetsova/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/dariakuznetsova/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/dariakuznetsova/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-junit4/2.17.3/allure-junit4-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-java-commons/2.17.3/allure-java-commons-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-model/2.17.3/allure-model-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-rest-assured/2.17.3/allure-rest-assured-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/io/qameta/allure/allure-attachments/2.17.3/allure-attachments-2.17.3.jar:/Users/dariakuznetsova/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/dariakuznetsova/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:"/>
+    <property name="allure.results.directory" value="/Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dariakuznetsova"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3/target/surefire/surefirebooter7943885742686558681.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.1+9"/>
+    <property name="user.name" value="dariakuznetsova"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/dariakuznetsova/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/jh/b0j868sn1_9472b1ngyj2s5h0000gn/T/"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="/Users/dariakuznetsova/Desktop/Я.Практикум/Sprint_3"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/dariakuznetsova/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="deletingCourierDoNotExistId" classname="ru.samokat.CourierDeletingTest" time="0.256">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <500>.
+
+	at ru.samokat.CourierDeletingTest.deletingCourierDoNotExistId(CourierDeletingTest.java:80)
+]]></failure>
+  </testcase>
+  <testcase name="deletingCourierSuccess" classname="ru.samokat.CourierDeletingTest" time="0.685">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at ru.samokat.CourierDeletingTest.deletingCourierSuccess(CourierDeletingTest.java:48)
+]]></failure>
+  </testcase>
+  <testcase name="deletingCourierWithoutId" classname="ru.samokat.CourierDeletingTest" time="0.192">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <500>.
+
+	at ru.samokat.CourierDeletingTest.deletingCourierWithoutId(CourierDeletingTest.java:63)
+]]></failure>
+  </testcase>
+</testsuite>

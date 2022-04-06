@@ -1,0 +1,9 @@
+ru/samokat/CourierRegisterScooter.class
+ru/samokat/Order.class
+ru/samokat/CourierCreatingTest.class
+ru/samokat/CourierLoginTest.class
+ru/samokat/CourierDeletingTest.class
+ru/samokat/Courier.class
+ru/samokat/OrderGetListParemeterizedTest.class
+ru/samokat/OrderCreatingParameterizedTest.class
+ru/samokat/Id.class

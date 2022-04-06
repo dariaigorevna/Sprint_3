@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: ru.samokat.CourierDeletingTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.143 s <<< FAILURE! - in ru.samokat.CourierDeletingTest
+deletingCourierDoNotExistId(ru.samokat.CourierDeletingTest)  Time elapsed: 0.256 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <500>.
+
+	at ru.samokat.CourierDeletingTest.deletingCourierDoNotExistId(CourierDeletingTest.java:80)
+
+deletingCourierSuccess(ru.samokat.CourierDeletingTest)  Time elapsed: 0.685 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at ru.samokat.CourierDeletingTest.deletingCourierSuccess(CourierDeletingTest.java:48)
+
+deletingCourierWithoutId(ru.samokat.CourierDeletingTest)  Time elapsed: 0.192 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <500>.
+
+	at ru.samokat.CourierDeletingTest.deletingCourierWithoutId(CourierDeletingTest.java:63)
+
