@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "b754a955b4e2c57fcdd949cc3844739a",
+    "name" : "ru.samokat.tests.CourierCreatingTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "ddd3a010eccaf5824c4d36b75abb3060",
+    "name" : "ru.samokat.tests.CourierLoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "c5a6d39f8616e50d83e8200390ce018c",
+    "name" : "ru.samokat.tests.OrderGetListParemeterizedTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "b584b729d2d9e94ef6484632c8e0323a",
+    "name" : "ru.samokat.tests.OrderCreatingParameterizedTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

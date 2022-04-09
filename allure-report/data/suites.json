@@ -1,0 +1,246 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.samokat.tests.CourierCreatingTest",
+    "children" : [ {
+      "name" : "courierShouldBeUnique",
+      "uid" : "6ec8008dc3f454b5",
+      "parentUid" : "b754a955b4e2c57fcdd949cc3844739a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierRequiredAttributePassword",
+      "uid" : "9f0d66cfaf36726a",
+      "parentUid" : "b754a955b4e2c57fcdd949cc3844739a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 178
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierRequiredAttributeLogin",
+      "uid" : "f294943cc7f8db6e",
+      "parentUid" : "b754a955b4e2c57fcdd949cc3844739a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierCouldBeCreating",
+      "uid" : "5a5565a9d3e5ddc5",
+      "parentUid" : "b754a955b4e2c57fcdd949cc3844739a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b754a955b4e2c57fcdd949cc3844739a"
+  }, {
+    "name" : "ru.samokat.tests.CourierLoginTest",
+    "children" : [ {
+      "name" : "courierAuthorizationRequiredAttributeLogin",
+      "uid" : "3a9c940bb8385385",
+      "parentUid" : "ddd3a010eccaf5824c4d36b75abb3060",
+      "status" : "passed",
+      "time" : {
+        "duration" : 339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierAuthorizationSuccess",
+      "uid" : "74f56f97ada9b897",
+      "parentUid" : "ddd3a010eccaf5824c4d36b75abb3060",
+      "status" : "passed",
+      "time" : {
+        "duration" : 349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierAuthorizationLoginError",
+      "uid" : "511e745cee88a24",
+      "parentUid" : "ddd3a010eccaf5824c4d36b75abb3060",
+      "status" : "passed",
+      "time" : {
+        "duration" : 477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierAuthorizationPasswordError",
+      "uid" : "e0e685821ed18fc6",
+      "parentUid" : "ddd3a010eccaf5824c4d36b75abb3060",
+      "status" : "passed",
+      "time" : {
+        "duration" : 365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ddd3a010eccaf5824c4d36b75abb3060"
+  }, {
+    "name" : "ru.samokat.tests.OrderCreatingParameterizedTest",
+    "children" : [ {
+      "name" : "cratingOrderUniversalTest[1]",
+      "uid" : "617214b7e9ae695a",
+      "parentUid" : "b584b729d2d9e94ef6484632c8e0323a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "cratingOrderUniversalTest[0]",
+      "uid" : "4a408c5279f755d4",
+      "parentUid" : "b584b729d2d9e94ef6484632c8e0323a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "cratingOrderUniversalTest[2]",
+      "uid" : "dc80cacfa8ac049",
+      "parentUid" : "b584b729d2d9e94ef6484632c8e0323a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 176
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b584b729d2d9e94ef6484632c8e0323a"
+  }, {
+    "name" : "ru.samokat.tests.OrderGetListParemeterizedTest",
+    "children" : [ {
+      "name" : "getOrderListDifferentEndpoints[2]",
+      "uid" : "7242a41bfc53749f",
+      "parentUid" : "c5a6d39f8616e50d83e8200390ce018c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1511
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getOrderListDifferentEndpoints[3]",
+      "uid" : "27fcbf0c68c8e585",
+      "parentUid" : "c5a6d39f8616e50d83e8200390ce018c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getOrderListDifferentEndpoints[0]",
+      "uid" : "d26739c19b40a2ec",
+      "parentUid" : "c5a6d39f8616e50d83e8200390ce018c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getOrderListDifferentEndpoints[1]",
+      "uid" : "13f9553794d3254",
+      "parentUid" : "c5a6d39f8616e50d83e8200390ce018c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c5a6d39f8616e50d83e8200390ce018c"
+  } ]
+}

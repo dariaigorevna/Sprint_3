@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ru.samokat.tests.CourierLoginTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.535 s - in ru.samokat.tests.CourierLoginTest

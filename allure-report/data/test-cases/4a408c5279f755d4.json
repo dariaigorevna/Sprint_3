@@ -1,0 +1,57 @@
+{
+  "uid" : "4a408c5279f755d4",
+  "name" : "cratingOrderUniversalTest[0]",
+  "historyId" : "ru.samokat.tests.OrderCreatingParameterizedTest:ru.samokat.tests.OrderCreatingParameterizedTest#cratingOrderUniversalTest[0]",
+  "time" : {
+    "duration" : 194
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d73a471e530d5e97",
+      "name" : "System out",
+      "source" : "d73a471e530d5e97.txt",
+      "type" : "text/plain",
+      "size" : 342
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "ru.samokat.tests.OrderCreatingParameterizedTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.samokat.tests.OrderCreatingParameterizedTest"
+  }, {
+    "name" : "package",
+    "value" : "ru.samokat.tests.OrderCreatingParameterizedTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a408c5279f755d4.json",
+  "parameterValues" : [ ]
+}
