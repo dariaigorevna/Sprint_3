@@ -1,0 +1,57 @@
+{
+  "uid" : "d26739c19b40a2ec",
+  "name" : "getOrderListDifferentEndpoints[0]",
+  "historyId" : "ru.samokat.tests.OrderGetListParemeterizedTest:ru.samokat.tests.OrderGetListParemeterizedTest#getOrderListDifferentEndpoints[0]",
+  "time" : {
+    "duration" : 215
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7d45b205876fa6e8",
+      "name" : "System out",
+      "source" : "7d45b205876fa6e8.txt",
+      "type" : "text/plain",
+      "size" : 341
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "ru.samokat.tests.OrderGetListParemeterizedTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.samokat.tests.OrderGetListParemeterizedTest"
+  }, {
+    "name" : "package",
+    "value" : "ru.samokat.tests.OrderGetListParemeterizedTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d26739c19b40a2ec.json",
+  "parameterValues" : [ ]
+}

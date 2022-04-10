@@ -1,0 +1,57 @@
+{
+  "uid" : "511e745cee88a24",
+  "name" : "courierAuthorizationLoginError",
+  "historyId" : "ru.samokat.tests.CourierLoginTest:ru.samokat.tests.CourierLoginTest#courierAuthorizationLoginError",
+  "time" : {
+    "duration" : 477
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d7c5285152a7cfc5",
+      "name" : "System out",
+      "source" : "d7c5285152a7cfc5.txt",
+      "type" : "text/plain",
+      "size" : 315
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "ru.samokat.tests.CourierLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.samokat.tests.CourierLoginTest"
+  }, {
+    "name" : "package",
+    "value" : "ru.samokat.tests.CourierLoginTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "511e745cee88a24.json",
+  "parameterValues" : [ ]
+}

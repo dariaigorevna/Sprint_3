@@ -1,0 +1,57 @@
+{
+  "uid" : "5a5565a9d3e5ddc5",
+  "name" : "courierCouldBeCreating",
+  "historyId" : "ru.samokat.tests.CourierCreatingTest:ru.samokat.tests.CourierCreatingTest#courierCouldBeCreating",
+  "time" : {
+    "duration" : 4726
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2846856006c405f4",
+      "name" : "System out",
+      "source" : "2846856006c405f4.txt",
+      "type" : "text/plain",
+      "size" : 321
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "ru.samokat.tests.CourierCreatingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.samokat.tests.CourierCreatingTest"
+  }, {
+    "name" : "package",
+    "value" : "ru.samokat.tests.CourierCreatingTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a5565a9d3e5ddc5.json",
+  "parameterValues" : [ ]
+}
